@@ -924,9 +924,10 @@ p {
 .section-7 {
   display: block;
   min-height: 100vh;
-  background-image: url('../images/RyanTest.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)), url('../images/RyanTest.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)), url('../images/RyanTest.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
   font-weight: 500;
 }
 
@@ -1157,7 +1158,7 @@ p {
   min-height: 100vh;
   background-image: url('../images/38---oVqhe6Z.jpg');
   background-position: 50% 50%;
-  background-size: auto;
+  background-size: cover;
 }
 
 .section-9 {
